@@ -22,25 +22,113 @@
 
 
 body {
-    color: #000;
-    font-size: 12px;
-    line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
-    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-    background-size: cover;
+    line-height: 1.4;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+    header{
+        background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+        background-size: cover;
+        padding: 30px;
+        color: aliceblue;
+        text-align: center;
+    }
+    header h1{
+        text-align: left;
+        font-size: 24px;
+        margin-bottom: 10px;
+        font-weight: 900;
+    }
+    header p{
+        
+        font-size: 24px;
+        font-weight: 400;
+        padding: 50px;
+    }
+    header a{
+        text-align: center;
+        font-weight: 900;
+        font-size:14px;
+        border-radius:5px;
+        color: #033048;
+        border: 10px solid #f9e42e;
+        background-color: #f9e42e;
+        text-decoration: none;
+    }
 
-header {
+    .benefits {
+        background-color: #f0efef;
+        padding: 50px;
+        color: #606161;
+        text-align: left;
+    }
+    .benefits h2{
+        font-weight: 600;
+        font-size: 20px;
+        color: #033048;
+    }
+    .benefits p ul{
+        font-size: 13px;
+        font-weight: 100;
 
-}
+    }
+    .benefits ul{
 
+        padding: 30px;
+    }
+
+    .quote{
+        background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+        background-size: cover;
+        padding: 50px;
+        color: aliceblue;
+        text-align: center;
+        font-size: 18px;
+
+    }
+    .quote blockquote {
+        font-weight: 100;
+        font-style: italic;
+    }
+    .quote p{
+        font-weight: 600;
+    }
+    .sign-up{
+        background-color: #f9e42e;
+        padding: 30px;
+        color: aliceblue;
+        text-align: center;
+    }
+    .sign-up a{
+        text-align: center;
+        font-weight: 900;
+        font-size:14px;
+        border-radius:5px;
+        color: aliceblue;
+        border: 10px solid #033048;
+        background-color: #033048;
+        text-decoration: none;
+    }
 footer {
-
+    background-color:#121212;
+    padding: 30px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 400;
+}
+img {
+    padding: 10px;
+}
+footer h2{
+    color: #f9e42e;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 10px;
 }
 
 /******************************************
